@@ -1,0 +1,114 @@
+Child body indexes
+feature 1: sex
+feature 2: agemons
+feature 3: weight
+feature 4: height
+feature 5: a
+feature 6: BMI
+feature 7: zbmi
+feature 8: zwaz
+feature 9: zwhz
+feature 10: TTDD_WHO_BMI
+
+
+
+Infant indexes
+feature 1: Stress_khimangthai
+feature 2: So_tuan_mang_thai
+feature 3: Hinhthuc_de
+feature 4: Me_tangcan_khi_mangthai
+feature 5: Can_so_sinh
+feature 6: Bu_sua_me
+feature 7: An_sua_bot_6_thang_dau
+feature 8: Thang_cai_sua
+feature 9: Thang_an_dam
+feature 10: HauAn_khi_an_dam
+
+Child eating habit
+feature 1: So_bua_sang
+feature 2: An_theo_y_thich
+feature 3: Uong_sua_truoc_ngu
+feature 4: Hau_an
+feature 5: Thoi_gian_an
+feature 6: Luong_an
+feature 7: Thich_ngot
+feature 8: Thich_beo
+feature 9: Thich_nac
+feature 10: Thich_trung
+feature 11: Thich_rau_hoaqua
+feature 12: So_lan_an_ngucoc
+feature 13: So_lan_an_dam
+feature 14: So_lan_an_Sua
+feature 15: So_lan_an_banh_keo
+feature 16: So_lan_uong_nuoc_ngot
+
+Chil exercise habits
+feature 1: Vandong_o_truong
+feature 2: Time_van_dong_manh
+feature 3: Thich_van_dong
+feature 4: Time_hoatdongtinhtai_o_truong
+feature 5: ThoigianxemTV_dienthoai
+feature 6: Homnay_chau_gap_kho_khan_khi_di_lai
+feature 7: Homnay_chau_gap_kho_khan_cham_soc_ban_than
+feature 8: Homnay_chau_gap_kho_khan_trong_cong_viec_hang_ngay
+feature 9: Homnay_chau_dau_don_kho_chiu
+feature 10: Homnay_chau_lo_au_buon_phien
+feature 11: Hieudong
+feature 12: Tron_hoc
+feature 13: Nhut_nhat
+feature 14: Thuong_lam_hong_do
+feature 15: Danh_nhau_voi_ban
+feature 16: Khong_duoc_ban_quy_men
+feature 17: Hay_lo_lang
+feature 18: Thich_mot_minh
+feature 19: Hay_cau_kinh
+feature 20: Hay_buon_chan
+feature 21: Thuong_co_vet_muc_tren_nguoi
+feature 22: Thuong_mut_ngon_tay
+feature 23: Thuong_can_mong_tay
+feature 24: Thuong_Nghi_hoc
+feature 25: Thuong_khong_vang_loi
+feature 26: Mat_tap_trung
+feature 27: So_hai
+feature 28: Bon_chon
+feature 29: Noi_doi
+feature 30: An_trom
+feature 31: Tu_lam_ban_minh
+feature 32: Keu_dau
+feature 33: Khoc_khi_di_hoc
+feature 34: Noi_lap
+feature 35: Kho_noi_chuyen
+feature 36: Bat_nat_ban
+feature 37: Gio_di_ngu
+feature 38: Gio_thuc_day
+feature 39: Time_ngu_toi
+
+Parent indexes
+feature 1: Tuoi_CHA
+feature 2: BMI_CHA
+feature 3: Nghe_CHA
+feature 4: Tuoi_ME
+feature 5: BMI_ME
+feature 6: Nghe_ME
+feature 7: Tinhtrang_honnhan
+
+
+Parent routine
+feature 1: Bome_Hutthuocla_Truockethon
+feature 2: Bome_sodieuthuochut1ngay_truockethon
+feature 3: Bome_dudinhcaithuoc_Truockethon
+feature 4: Hut_thuoc_khi_mang_thai
+feature 5: So_dieu_thuoc_hut_khi_mang_thai
+feature 6: Du_dinh_cai_thuoc_khi_mang_thai
+feature 7: Hut_thuoc_hien_tai
+feature 8: Sodieuthuochutngay_hientai
+feature 9: Dudinhcaithuoc_hientai
+feature 10: Solanuongruou_truockethon
+feature 11: Luongruouuong_truockethon
+feature 12: Uongtren6chenruou_truockethon
+feature 13: Solanuongruou_khimangthai
+feature 14: Luongruouuong_khimangthai
+feature 15: Uongtren6chenruou_Khimangthai
+feature 16: Solanuongruou_hientai
+feature 17: Luongruouuong_hientai
+feature 18: Uongtren6chenruou_hientai

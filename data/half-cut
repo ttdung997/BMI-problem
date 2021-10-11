@@ -1,0 +1,147 @@
+feature 0: Region
+feature 1: Tuoi_CHA
+feature 2: Ma_Nghe_CHA
+feature 3: Tuoi_ME
+feature 4: Ma_nghe_ME
+feature 5: Tinhtrang_honnhan
+feature 6: Stress_khimangthai
+feature 7: So_tuan_mang_thai
+feature 8: Cach_thuc_de
+feature 9: Me_tangcan_khi_mangthai
+feature 10: Can_so_sinh
+feature 11: Bu_sua_me
+feature 12: An_sua_bot_6_thang_dau
+feature 13: Thang_cai_sua
+feature 14: Thang_an_dam
+feature 15: HauAn_khi_an_dam
+feature 16: So_bua_sang
+feature 17: An_theo_y_thich
+feature 18: Uong_sua_truoc_ngu
+feature 19: Hau_an
+feature 20: Thoi_gian_an
+feature 21: Luong_an
+feature 22: Thich_ngot
+feature 23: Thich_beo
+feature 24: Thich_nac
+feature 25: Thich_trung
+feature 26: Thich_rau_hoaqua
+feature 27: Gio_di_ngu
+feature 28: Gio_thuc_day
+feature 29: Time_ngu_toi
+feature 30: So_lan_an_ngucoc
+feature 31: So_lan_an_dam
+feature 32: So_lan_an_Sua
+feature 33: So_lan_an_banh_keo
+feature 34: So_lan_uong_nuoc_ngot
+feature 35: Vandong_o_truong
+feature 36: Time_van_dong_manh
+feature 37: Thich_van_dong
+feature 38: Time_xemTV_ngoichoi
+feature 39: Me_tu_danh_gia_TTDDcon
+feature 40: Hai_long_can_con
+feature 41: Muon_doi_can_con
+feature 42: Hai_long_hinh_the_con
+feature 43: Muon_thaydoi_hinhthe_con
+feature 44: Nhanthuc_hinhdang_conTrai
+feature 45: Thich_hinhdang_conTrai
+feature 46: Thich_hinhdang_conGai
+feature 47: Nhanthuc_hinhdang_conGai
+feature 48: Hinh_conTrai_Khoe_nhat
+feature 49: Hinh_contrai_KHONG_khoe
+feature 50: tong_thoi_gian_TV_maytinh_ngay_tre
+feature 51: Truockethon_hut_thuoc_khong
+feature 52: Truockethon_so_luong_thuoc_1ngay
+feature 53: A103
+feature 54: khimangthai_hut_thuoc_khong
+feature 55: Khimangthai_so_luong_thuoc_ngay
+feature 56: A106
+feature 57: Hientai_hut_thuoc_khong
+feature 58: Hientai_so_luong_thuoc_ngay
+feature 59: A109
+feature 60: Truockethon_ruoubaolau_lan
+feature 61: Truockethon_soluongruou_lan
+feature 62: Truockethon_uong6ly
+feature 63: khimangthai_uongruou_baolau_lan
+feature 64: khimangthai_moilanuong_nhieu
+feature 65: khimangthai_uong6ly
+feature 66: Hientai_ruoubaolau_lan
+feature 67: Hientai_soluongruou_lan
+feature 68: Hientai_uong6ly
+feature 69: Tre_hieu_dong
+feature 70: C52
+feature 71: Tre_nhut_nhat
+feature 72: C54
+feature 73: C55
+feature 74: C56
+feature 75: Tre_hay_lo_lang
+feature 76: C58
+feature 77: Tre_hay_cau_kinh
+feature 78: C60
+feature 79: C61
+feature 80: Tre_mut_ngon_tay
+feature 81: Tre_can_mongtay
+feature 82: C64
+feature 83: C65
+feature 84: Tre_hay_mat_tap_trung
+feature 85: C67
+feature 86: C68
+feature 87: C69
+feature 88: C70
+feature 89: Tre_hay_lam_uot_va_lam_ban_minh
+feature 90: C72
+feature 91: C73
+feature 92: Tre_hay_noi_lap_bap
+feature 93: C75
+feature 94: C76
+feature 95: boy_shape_identification
+feature 96: thich_hinh_dang_con_trai
+feature 97: girl_shape_identification
+feature 98: thich_hinh_dang_con_gai
+feature 99: nhan_dinh_hinh_dang
+feature 100: Danh_gia_shape_tre
+feature 101: thoi_gian_TV
+feature 102: truockethon_uongruou
+feature 103: Hientai_ruou_bao_lau
+feature 104: hientai_moilan_nhieu_khong
+feature 105: Hientai_6ly_trolen
+feature 106: Hientai_uong_ruou
+feature 107: Dau_hieu_than_the_tre
+feature 108: Tinh_cach_tre
+              precision    recall  f1-score   support
+
+           4       0.96      0.92      0.94        86
+           5       0.97      0.99      0.98       199
+
+   micro avg       0.97      0.97      0.97       285
+   macro avg       0.96      0.96      0.96       285
+weighted avg       0.97      0.97      0.97       285
+
+|--- feature_98 <= 4.50
+|   |--- feature_95 <= 6.50
+|   |   |--- class: 5
+|   |--- feature_95 >  6.50
+|   |   |--- feature_99 <= 6.50
+|   |   |   |--- class: 4
+|   |   |--- feature_99 >  6.50
+|   |   |   |--- feature_16 <= 14.50
+|   |   |   |   |--- class: 5
+|   |   |   |--- feature_16 >  14.50
+|   |   |   |   |--- class: 4
+|--- feature_98 >  4.50
+|   |--- feature_95 <= 4.50
+|   |   |--- feature_97 <= 5.50
+|   |   |   |--- feature_96 <= 5.50
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_96 >  5.50
+|   |   |   |   |--- class: 5
+|   |   |--- feature_97 >  5.50
+|   |   |   |--- class: 5
+|   |--- feature_95 >  4.50
+|   |   |--- feature_3 <= 29.70
+|   |   |   |--- class: 4
+|   |   |--- feature_3 >  29.70
+|   |   |   |--- feature_13 <= 13.50
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_13 >  13.50
+|   |   |   |   |--- class: 4
+

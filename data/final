@@ -1,0 +1,154 @@
+feature 0: qhc
+feature 1: sex
+feature 2: agemons
+feature 3: weight
+feature 4: height
+feature 5: Region
+feature 6: Tuoi_CHA
+feature 7: Ma_Nghe_CHA
+feature 8: Tuoi_ME
+feature 9: Ma_nghe_ME
+feature 10: Tinhtrang_honnhan
+feature 11: Stress_khimangthai
+feature 12: So_tuan_mang_thai
+feature 13: Cach_thuc_de
+feature 14: Me_tangcan_khi_mangthai
+feature 15: Can_so_sinh
+feature 16: Bu_sua_me
+feature 17: An_sua_bot_6_thang_dau
+feature 18: Thang_cai_sua
+feature 19: Thang_an_dam
+feature 20: HauAn_khi_an_dam
+feature 21: So_bua_sang
+feature 22: An_theo_y_thich
+feature 23: Uong_sua_truoc_ngu
+feature 24: Hau_an
+feature 25: Thoi_gian_an
+feature 26: Luong_an
+feature 27: Thich_ngot
+feature 28: Thich_beo
+feature 29: Thich_nac
+feature 30: Thich_trung
+feature 31: Thich_rau_hoaqua
+feature 32: Gio_di_ngu
+feature 33: Gio_thuc_day
+feature 34: Time_ngu_toi
+feature 35: So_lan_an_ngucoc
+feature 36: So_lan_an_dam
+feature 37: So_lan_an_Sua
+feature 38: So_lan_an_banh_keo
+feature 39: So_lan_uong_nuoc_ngot
+feature 40: Vandong_o_truong
+feature 41: Time_van_dong_manh
+feature 42: Thich_van_dong
+feature 43: Time_xemTV_ngoichoi
+feature 44: Hai_long_can_con
+feature 45: Muon_doi_can_con
+feature 46: Hai_long_hinh_the_con
+feature 47: Muon_thaydoi_hinhthe_con
+feature 48: Hinh_contrai_KHONG_khoe
+feature 49: Truockethon_hut_thuoc_khong
+feature 50: Truockethon_so_luong_thuoc_1ngay
+feature 51: A103
+feature 52: khimangthai_hut_thuoc_khong
+feature 53: Khimangthai_so_luong_thuoc_ngay
+feature 54: A106
+feature 55: Hientai_hut_thuoc_khong
+feature 56: Hientai_so_luong_thuoc_ngay
+feature 57: A109
+feature 58: Truockethon_ruoubaolau_lan
+feature 59: Truockethon_soluongruou_lan
+feature 60: Truockethon_uong6ly
+feature 61: khimangthai_uongruou_baolau_lan
+feature 62: khimangthai_moilanuong_nhieu
+feature 63: khimangthai_uong6ly
+feature 64: Hientai_ruoubaolau_lan
+feature 65: Hientai_soluongruou_lan
+feature 66: Hientai_uong6ly
+feature 67: Tre_hieu_dong
+feature 68: C52
+feature 69: Tre_nhut_nhat
+feature 70: C54
+feature 71: C55
+feature 72: C56
+feature 73: Tre_hay_lo_lang
+feature 74: C58
+feature 75: Tre_hay_cau_kinh
+feature 76: C60
+feature 77: C61
+feature 78: Tre_mut_ngon_tay
+feature 79: Tre_can_mongtay
+feature 80: C64
+feature 81: C65
+feature 82: Tre_hay_mat_tap_trung
+feature 83: C67
+feature 84: C68
+feature 85: C69
+feature 86: C70
+feature 87: Tre_hay_lam_uot_va_lam_ban_minh
+feature 88: C72
+feature 89: C73
+feature 90: Tre_hay_noi_lap_bap
+feature 91: C75
+feature 92: C76
+feature 93: thoi_gian_TV
+feature 94: truockethon_uongruou
+feature 95: Hientai_ruou_bao_lau
+feature 96: hientai_moilan_nhieu_khong
+feature 97: Hientai_6ly_trolen
+feature 98: Hientai_uong_ruou
+feature 99: Dau_hieu_than_the_tre
+feature 100: Tinh_cach_tre
+              precision    recall  f1-score   support
+
+           4       0.90      0.94      0.92        77
+           5       0.98      0.98      0.98       206
+
+   micro avg       0.95      0.97      0.96       283
+   macro avg       0.94      0.96      0.95       283
+weighted avg       0.96      0.97      0.96       283
+
+|--- feature_3 <= 22.15
+|   |--- feature_42 <= 1.50
+|   |   |--- feature_2 <= 44.95
+|   |   |   |--- feature_3 <= 16.10
+|   |   |   |   |--- class: 5
+|   |   |   |--- feature_3 >  16.10
+|   |   |   |   |--- class: 4
+|   |   |--- feature_2 >  44.95
+|   |   |   |--- feature_86 <= 1.50
+|   |   |   |   |--- class: 5
+|   |   |   |--- feature_86 >  1.50
+|   |   |   |   |--- class: 5
+|   |--- feature_42 >  1.50
+|   |   |--- feature_3 <= 16.35
+|   |   |   |--- feature_35 <= 1.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- feature_35 >  1.50
+|   |   |   |   |--- class: 5
+|   |   |--- feature_3 >  16.35
+|   |   |   |--- feature_2 <= 52.84
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_2 >  52.84
+|   |   |   |   |--- class: 5
+|--- feature_3 >  22.15
+|   |--- feature_3 <= 29.35
+|   |   |--- feature_4 <= 110.75
+|   |   |   |--- feature_4 <= 96.75
+|   |   |   |   |--- class: 3
+|   |   |   |--- feature_4 >  96.75
+|   |   |   |   |--- class: 4
+|   |   |--- feature_4 >  110.75
+|   |   |   |--- feature_3 <= 24.05
+|   |   |   |   |--- class: 5
+|   |   |   |--- feature_3 >  24.05
+|   |   |   |   |--- class: 4
+|   |--- feature_3 >  29.35
+|   |   |--- feature_4 <= 115.25
+|   |   |   |--- feature_6 <= 33.50
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_6 >  33.50
+|   |   |   |   |--- class: 3
+|   |   |--- feature_4 >  115.25
+|   |   |   |--- class: 4
+

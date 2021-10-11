@@ -1,0 +1,312 @@
+feature 0: CODE
+feature 1: CoDe_check
+feature 2: Quan_huyen
+feature 3: qhc
+feature 4: sex
+feature 5: agemons
+feature 6: weight
+feature 7: height
+feature 8: zhaz
+feature 9: BMI
+feature 10: zbmi
+feature 11: zwaz
+feature 12: zwhz
+feature 13: TTDD_WHO_BMI
+feature 14: Region
+feature 15: Co_mau_ADN
+feature 16: Food_responsiveness
+feature 17: Emotional_over_eating
+feature 18: Enjoyment_of_food
+feature 19: Desire_to_drink
+feature 20: Satiety_responsiveness
+feature 21: Slowness_in_eating
+feature 22: Emotional_under_eating
+feature 23: Food_fussiness
+feature 24: Tuoi_CHA
+feature 25: BMI_CHA
+feature 26: Nghe_cha
+feature 27: Ma_Nghe_CHA
+feature 28: Tuoi_ME
+feature 29: BMI_ME
+feature 30: Nghe_ME
+feature 31: Ma_nghe_ME
+feature 32: Tinhtrang_honnhan
+feature 33: Stress_khimangthai
+feature 34: So_tuan_mang_thai
+feature 35: Cach_thuc_de
+feature 36: Me_tangcan_khi_mangthai
+feature 37: Can_so_sinh
+feature 38: Bu_sua_me
+feature 39: An_sua_bot_6_thang_dau
+feature 40: Thang_cai_sua
+feature 41: Thang_an_dam
+feature 42: HauAn_khi_an_dam
+feature 43: So_bua_sang
+feature 44: An_theo_y_thich
+feature 45: Uong_sua_truoc_ngu
+feature 46: Hau_an
+feature 47: Thoi_gian_an
+feature 48: Luong_an
+feature 49: Thich_ngot
+feature 50: Thich_beo
+feature 51: Thich_nac
+feature 52: Thich_trung
+feature 53: Thich_rau_hoaqua
+feature 54: Gio_di_ngu
+feature 55: Gio_thuc_day
+feature 56: Time_ngu_toi
+feature 57: So_lan_an_ngucoc
+feature 58: So_lan_an_dam
+feature 59: So_lan_an_Sua
+feature 60: So_lan_an_banh_keo
+feature 61: So_lan_uong_nuoc_ngot
+feature 62: Vandong_o_truong
+feature 63: Time_van_dong_manh
+feature 64: Thich_van_dong
+feature 65: Time_xemTV_ngoichoi
+feature 66: Me_tu_danh_gia_TTDDcon
+feature 67: Hai_long_can_con
+feature 68: Muon_doi_can_con
+feature 69: Muon_tang_or_giam_cancon
+feature 70: So_kg_muon_tang
+feature 71: So_kg_muon_giam
+feature 72: Hai_long_hinh_the_con
+feature 73: Diem_khong_hailong
+feature 74: Muon_thaydoi_hinhthe_con
+feature 75: Thaydoi_gi
+feature 76: Nhanthuc_hinhdang_conTrai
+feature 77: Thich_hinhdang_conTrai
+feature 78: Thich_hinhdang_conGai
+feature 79: Nhanthuc_hinhdang_conGai
+feature 80: Thich_hinhdang_conGai2
+feature 81: Thich_hinhdang_conTrai2
+feature 82: Hinh_conTrai_Khoe_nhat
+feature 83: Hinh_congai_Khoa_nhat
+feature 84: Hinh_contrai_KHONG_khoe
+feature 85: Hinh_conGai_KHONG_khoe
+feature 86: QUANHE_nguoitraloi
+feature 87: NGAYtraloi
+feature 88: HOTEN
+feature 89: LOP
+feature 90: TRUONG
+feature 91: A5B
+feature 92: A5C
+feature 93: A5D
+feature 94: A6A
+feature 95: A6B
+feature 96: A6C
+feature 97: A6D
+feature 98: tong_thoi_gian_TV_maytinh_ngay_tre
+feature 99: Truockethon_hut_thuoc_khong
+feature 100: Truockethon_so_luong_thuoc_1ngay
+feature 101: A103
+feature 102: khimangthai_hut_thuoc_khong
+feature 103: Khimangthai_so_luong_thuoc_ngay
+feature 104: A106
+feature 105: Hientai_hut_thuoc_khong
+feature 106: Hientai_so_luong_thuoc_ngay
+feature 107: A109
+feature 108: Truockethon_ruoubaolau_lan
+feature 109: Truockethon_soluongruou_lan
+feature 110: Truockethon_uong6ly
+feature 111: khimangthai_uongruou_baolau_lan
+feature 112: khimangthai_moilanuong_nhieu
+feature 113: khimangthai_uong6ly
+feature 114: Hientai_ruoubaolau_lan
+feature 115: Hientai_soluongruou_lan
+feature 116: Hientai_uong6ly
+feature 117: Tre_hieu_dong
+feature 118: C52
+feature 119: Tre_nhut_nhat
+feature 120: C54
+feature 121: C55
+feature 122: C56
+feature 123: Tre_hay_lo_lang
+feature 124: C58
+feature 125: Tre_hay_cau_kinh
+feature 126: C60
+feature 127: C61
+feature 128: Tre_mut_ngon_tay
+feature 129: Tre_can_mongtay
+feature 130: C64
+feature 131: C65
+feature 132: Tre_hay_mat_tap_trung
+feature 133: C67
+feature 134: C68
+feature 135: C69
+feature 136: C70
+feature 137: Tre_hay_lam_uot_va_lam_ban_minh
+feature 138: C72
+feature 139: C73
+feature 140: Tre_hay_noi_lap_bap
+feature 141: C75
+feature 142: C76
+feature 143: Shape_real
+feature 144: boy_shape_identification
+feature 145: thich_hinh_dang_con_trai
+feature 146: girl_shape_identification
+feature 147: thich_hinh_dang_con_gai
+feature 148: nhan_dinh_hinh_dang
+feature 149: Danh_gia_shape_tre
+feature 150: thoi_gian_TV
+feature 151: truockethon_uongruou
+feature 152: Hientai_ruou_bao_lau
+feature 153: hientai_moilan_nhieu_khong
+feature 154: Hientai_6ly_trolen
+feature 155: Hientai_uong_ruou
+feature 156: Dau_hieu_than_the_tre
+feature 157: Tinh_cach_tre
+feature 158: Categories of BMI
+feature 0: Region
+feature 1: Tuoi_CHA
+feature 2: Ma_Nghe_CHA
+feature 3: Tuoi_ME
+feature 4: Ma_nghe_ME
+feature 5: Tinhtrang_honnhan
+feature 6: Stress_khimangthai
+feature 7: So_tuan_mang_thai
+feature 8: Cach_thuc_de
+feature 9: Me_tangcan_khi_mangthai
+feature 10: Can_so_sinh
+feature 11: Bu_sua_me
+feature 12: An_sua_bot_6_thang_dau
+feature 13: Thang_cai_sua
+feature 14: Thang_an_dam
+feature 15: HauAn_khi_an_dam
+feature 16: So_bua_sang
+feature 17: An_theo_y_thich
+feature 18: Uong_sua_truoc_ngu
+feature 19: Hau_an
+feature 20: Thoi_gian_an
+feature 21: Luong_an
+feature 22: Thich_ngot
+feature 23: Thich_beo
+feature 24: Thich_nac
+feature 25: Thich_trung
+feature 26: Thich_rau_hoaqua
+feature 27: Gio_di_ngu
+feature 28: Gio_thuc_day
+feature 29: Time_ngu_toi
+feature 30: So_lan_an_ngucoc
+feature 31: So_lan_an_dam
+feature 32: So_lan_an_Sua
+feature 33: So_lan_an_banh_keo
+feature 34: So_lan_uong_nuoc_ngot
+feature 35: Vandong_o_truong
+feature 36: Time_van_dong_manh
+feature 37: Thich_van_dong
+feature 38: Time_xemTV_ngoichoi
+feature 39: Me_tu_danh_gia_TTDDcon
+feature 40: Hai_long_can_con
+feature 41: Muon_doi_can_con
+feature 42: Hai_long_hinh_the_con
+feature 43: Muon_thaydoi_hinhthe_con
+feature 44: Nhanthuc_hinhdang_conTrai
+feature 45: Thich_hinhdang_conTrai
+feature 46: Thich_hinhdang_conGai
+feature 47: Nhanthuc_hinhdang_conGai
+feature 48: Hinh_conTrai_Khoe_nhat
+feature 49: Hinh_contrai_KHONG_khoe
+feature 50: tong_thoi_gian_TV_maytinh_ngay_tre
+feature 51: Truockethon_hut_thuoc_khong
+feature 52: Truockethon_so_luong_thuoc_1ngay
+feature 53: A103
+feature 54: khimangthai_hut_thuoc_khong
+feature 55: Khimangthai_so_luong_thuoc_ngay
+feature 56: A106
+feature 57: Hientai_hut_thuoc_khong
+feature 58: Hientai_so_luong_thuoc_ngay
+feature 59: A109
+feature 60: Truockethon_ruoubaolau_lan
+feature 61: Truockethon_soluongruou_lan
+feature 62: Truockethon_uong6ly
+feature 63: khimangthai_uongruou_baolau_lan
+feature 64: khimangthai_moilanuong_nhieu
+feature 65: khimangthai_uong6ly
+feature 66: Hientai_ruoubaolau_lan
+feature 67: Hientai_soluongruou_lan
+feature 68: Hientai_uong6ly
+feature 69: Tre_hieu_dong
+feature 70: C52
+feature 71: Tre_nhut_nhat
+feature 72: C54
+feature 73: C55
+feature 74: C56
+feature 75: Tre_hay_lo_lang
+feature 76: C58
+feature 77: Tre_hay_cau_kinh
+feature 78: C60
+feature 79: C61
+feature 80: Tre_mut_ngon_tay
+feature 81: Tre_can_mongtay
+feature 82: C64
+feature 83: C65
+feature 84: Tre_hay_mat_tap_trung
+feature 85: C67
+feature 86: C68
+feature 87: C69
+feature 88: C70
+feature 89: Tre_hay_lam_uot_va_lam_ban_minh
+feature 90: C72
+feature 91: C73
+feature 92: Tre_hay_noi_lap_bap
+feature 93: C75
+feature 94: C76
+feature 95: boy_shape_identification
+feature 96: thich_hinh_dang_con_trai
+feature 97: girl_shape_identification
+feature 98: thich_hinh_dang_con_gai
+feature 99: nhan_dinh_hinh_dang
+feature 100: Danh_gia_shape_tre
+feature 101: thoi_gian_TV
+feature 102: truockethon_uongruou
+feature 103: Hientai_ruou_bao_lau
+feature 104: hientai_moilan_nhieu_khong
+feature 105: Hientai_6ly_trolen
+feature 106: Hientai_uong_ruou
+feature 107: Dau_hieu_than_the_tre
+feature 108: Tinh_cach_tre
+              precision    recall  f1-score   support
+
+           4       0.92      1.00      0.96        90
+           5       1.00      0.98      0.99       193
+
+   micro avg       0.97      0.99      0.98       283
+   macro avg       0.96      0.99      0.97       283
+weighted avg       0.97      0.99      0.98       283
+
+|--- feature_98 <= 4.50
+|   |--- feature_44 <= 6.50
+|   |   |--- feature_13 <= 2.50
+|   |   |   |--- feature_46 <= 4.00
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_46 >  4.00
+|   |   |   |   |--- class: 5
+|   |   |--- feature_13 >  2.50
+|   |   |   |--- class: 5
+|   |--- feature_44 >  6.50
+|   |   |--- feature_99 <= 6.50
+|   |   |   |--- class: 4
+|   |   |--- feature_99 >  6.50
+|   |   |   |--- feature_46 <= 3.50
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_46 >  3.50
+|   |   |   |   |--- class: 5
+|--- feature_98 >  4.50
+|   |--- feature_44 <= 4.50
+|   |   |--- feature_96 <= 5.50
+|   |   |   |--- feature_99 <= 1.50
+|   |   |   |   |--- class: 5
+|   |   |   |--- feature_99 >  1.50
+|   |   |   |   |--- class: 4
+|   |   |--- feature_96 >  5.50
+|   |   |   |--- class: 5
+|   |--- feature_44 >  4.50
+|   |   |--- feature_3 <= 30.34
+|   |   |   |--- class: 4
+|   |   |--- feature_3 >  30.34
+|   |   |   |--- feature_3 <= 31.30
+|   |   |   |   |--- class: 4
+|   |   |   |--- feature_3 >  31.30
+|   |   |   |   |--- class: 4
+
